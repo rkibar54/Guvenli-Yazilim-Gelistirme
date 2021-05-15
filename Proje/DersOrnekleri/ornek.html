@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+#ana {
+              background: #f0f0f0;
+              width: 434px;
+              border: 1px solid #aaa;
+       }
+/* Sol iskelet */
+#ana .sol {
+              float: left;
+              margin: 10px 5px 10px 10px; /* üst sağ alt sol */
+       }
+/* Sag iskelet */
+#ana .sag {
+              float: right;
+              margin: 10px 10px 10px 5px;
+       }
+/* Ortak özellikler tanımlanıyor */
+#ana .sol, #ana .sag {
+              width: 200px;
+              height: 50px;
+              background: #fff;
+              border: 1px solid #aaa;
+       }
+/* Clear özelliği aktarılıyor */
+#ana .temizle {
+              clear: both; /* left ve right olduğundan both */
+              font-size: 0;
+              line-height: 0;
+              height: 0;
+       }
+       img{
+          
+          vertical-align: middle;
+       }
+ .div1 {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+
+ 
+.div3{
+    float: right;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+.div2 { 
+    border: 1px solid red;  
+    height: 150px;  
+    
+    
+}
+.div2 { 
+    border: 1px solid red;  
+    height: 150px;  
+    clear: both;
+}
+.sifir{
+     border: 1px solid red;  
+    height: 250px;   
+}
+
+</style>
+
+</head>
+<body>
+<div id="ana">
+       <div class="sol"></div>
+       <div class="sag"></div>
+       <div class="temizle"></div>
+    
+</div>
+   <div class="bir">  fjlkahdkjfhsadkjhfkjasdhjflasdfhaksdjfhjk <img src="res.png" alt=""/></div>
+   <div class="sifir">
+       <div class="div1">div1</div>
+<div class="div3">div3</div></div>
+
+<div class="div2">div2 - Notice that the div2 element is after div1, in the HTML code. However, since div1 is floated to the left, this happens: the text in div2 is floated around div1, and div2 surrounds the whole thing.</div>
+
+</body>
+</html>

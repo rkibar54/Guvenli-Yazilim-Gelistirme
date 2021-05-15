@@ -1,0 +1,154 @@
+body{
+    font:bold sans-serif verdena;
+    color:black;
+    font-size: 18px;
+    background-color: #DCDDDF;
+   
+}
+
+
+.AnaDiv{
+    margin:auto;
+    background-color: #666;
+    width: 900px;
+    height: auto;
+    padding: 10px;
+    border: solid 1px;
+    
+    
+}
+.menuDiv{
+    border-radius: 5px;
+    border:solid 1px;
+    position: relative;
+   width: auto;
+   height: 50px;
+   margin-top: 10px;
+   background-color: #670001;
+   
+  
+}
+.menuElemani{
+ 
+    border-radius: 5px;
+    margin: 10px;
+    margin: 10px;
+    width: auto;
+    padding: 5px;
+    background-color: #670001;
+    color:white;
+    
+    
+    
+  
+}
+.OrtaDiv1{
+    border-radius: 5px;
+    border:solid 1px;
+    position: relative;
+    width: auto;
+    height: 400px;
+    margin-top: 10px;
+   
+    
+}
+
+.solSide{
+    border-radius: 5px;
+    border:solid 1px;
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    background-color: #670001;
+    
+    
+}
+ul li{
+    margin-top: 20px;
+    font-family: arial;
+    color: #acacac;
+}
+.resim{
+    border-radius: 5px;
+    border:solid 1px;
+    position: relative;
+
+    height: auto;
+    margin: 10px;
+    
+}
+.sagSide{
+    border-radius: 5px;
+    border:solid 1px;
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    background-color: #670001;
+   
+}
+
+
+
+
+.OrtaDiv2{
+    border-radius: 5px;
+    border:solid 1px;
+    position: relative;
+    width: auto;
+    height: 350px;
+    margin-top: 10px;
+}
+.OrtaDiv2Eleman{
+    border-radius: 5px;
+    border:solid 1px;
+    position: relative;
+    width: 25%;
+    height: auto;
+    margin: 35px;
+    margin-top: 10px;
+    background-color: #670001;
+}
+
+
+.baslik{
+    border-bottom: solid 1px;
+    position: relative;
+    width: auto;
+    height: 40px;
+    margin-top: 5px;
+    text-align: center;
+    color:white;
+ 
+}
+.icerik{
+ 
+    position: relative;
+    width: auto;
+    height: auto;
+    color:black;
+   
+}
+.floatDiv{
+    
+    border-radius: 5px;
+    border:solid 1px;
+    position: relative;
+    width: auto;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #670001;
+    
+}
+
+.yasla{float:left;}
+b{
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+}
+input{
+    margin: 9px;
+}

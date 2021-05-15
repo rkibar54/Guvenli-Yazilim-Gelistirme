@@ -1,0 +1,85 @@
+body{
+    font-family: Verdana, monospace, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: justify;
+    min-height: 800px;
+    overflow: hidden;
+}
+.anasayfa{
+    border:solid 1px;
+    width: 900px;
+    height: 1200px;
+    padding: 20px;
+    background-color: skyblue;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    
+}
+.ustmenu{       
+    width: 100%;
+    height: 80px;
+    border:solid 1px;
+    background-color: #004a80;
+    
+    
+}
+.ustmenuEleman{
+    float:left;
+    width: 100px;
+    height: 40px;
+    border:solid 1px;
+    background-color: #2580a2;
+    position: relative;
+    margin:15px 0px 0px 10px;
+
+}
+.ustmenuEleman p{
+    position: relative;
+    margin: 10px;
+}
+.icerik{
+    border:solid 1px;
+    height:600px;
+    padding: 20px;
+    background-color: #004a80;  
+    margin-top: 10px;
+ 
+ 
+    
+}
+
+.icerik div{
+    float:left;
+   
+}
+
+.icerikSolBolum{
+    border:solid 1px;
+    height:560px;
+    width: 120px;
+    padding: 20px;
+    background-color: #008000;  
+ 
+    
+}
+
+.icerikSagBolum{
+    border:solid 1px;
+    width: 610px;
+    height:560px;
+    padding: 20px;
+    background-color: #008000;  
+    
+    margin-left:20px; 
+}
+
+.AltBolum{
+    border:solid 1px;
+    height:200px;
+    padding: 20px;
+    background-color: #004a80;  
+    margin-top: 10px; 
+    
+}
